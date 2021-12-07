@@ -1,6 +1,7 @@
 import { applyResolversEnhanceMap } from "prisma/generated/typegraphql";
 import { UseMiddleware } from "type-graphql";
 
+// this will fail
 applyResolversEnhanceMap({
 	User: {
 		createUser: [
